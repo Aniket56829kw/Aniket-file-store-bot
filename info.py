@@ -44,7 +44,7 @@ JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002143207596'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'AJ_TVSHOWS)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Aniket_bots')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
